@@ -4,7 +4,8 @@
   }
 
   #login {
-    width: 80vw;
+    width: 70vw;
+    height: 40vh;
   }
 
   #imagem {
@@ -19,6 +20,10 @@
     float: right;
     width: 70%;
   }
+
+  input {
+    width: 39.4vw;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -27,6 +32,7 @@
   }
   #login {
     width: 990px;
+    height: 40vh;
   }
   #imagem {
     float: right;
@@ -45,5 +51,9 @@
 
   #formulario > p {
     font-size: 1.2em;
+  }
+
+  input {
+    width: 420px;
   }
 }
