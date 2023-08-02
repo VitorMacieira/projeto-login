@@ -29,7 +29,7 @@
     width: 990px;
   }
   #imagem {
-    float: left;
+    float: right;
     width: 47%;
     height: 100%;
     border-radius: 20px;
@@ -42,7 +42,7 @@
   #formulario > h1 {
     font-size: 2em;
   }
-  
+
   #formulario > p {
     font-size: 1.2em;
   }
