@@ -1,3 +1,49 @@
 /*  verde: #49a09d
     lilas: #5f2c82
 */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body,
+html {
+  background-color: #5f2c82;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#formulario {
+  padding: 10px;
+  display: block;
+}
+
+#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+}
+
+#imagem {
+  background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-position: left bottom;
+  display: block;
+}
